@@ -4,30 +4,34 @@
 #
 # Артём Попов <artfwo@gmail.com>, 2008.
 # Denis Koryavov <dkoryavov@yandex.ru>, 2010
-# Stas Solovey <whats_up@tut.by>, 2012.
+# Stas Solovey <whats_up@tut.by>, 2012, 2013.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: nautilus-share trunk\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
 "product=nautilus-share&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2012-01-16 15:52+0000\n"
-"PO-Revision-Date: 2012-03-17 15:02+0300\n"
+"POT-Creation-Date: 2012-10-13 22:55+0000\n"
+"PO-Revision-Date: 2013-03-02 15:02+0300\n"
 "Last-Translator: Stas Solovey <whats_up@tut.by>\n"
 "Language-Team: Russian <gnome-cyr@gnome.org>\n"
+"Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
-"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
+"X-Generator: Gtranslator 2.91.6\n"
 
 #: ../src/nautilus-share.c:123
 #, c-format
 msgid ""
 "Nautilus needs to add some permissions to your folder \"%s\" in order to "
 "share it"
-msgstr "Для публикации папки «%s» необходимы дополнительные права доступа"
+msgstr ""
+"Для общего доступа к папке «%s» необходимы дополнительные права доступа"
 
+# пробела между %s%s%s и "добавить" не должно быть, в оригинале все верно
 #: ../src/nautilus-share.c:131
 #, c-format
 msgid ""
@@ -36,9 +40,9 @@ msgid ""
 "%s%s%sDo you want Nautilus to add these permissions to the folder "
 "automatically?"
 msgstr ""
-"Для успешной публикации папки «%s» необходимо добавить следующие "
-"дополнительные права доступа:\n"
-"%s%s%sВы хотите, чтобы эти права были добавлены автоматически?"
+"Для общего доступа к папке «%s» необходимо добавить следующие дополнительные "
+"права доступа:\n"
+"%s%s%sДобавить права автоматически?"
 
 #: ../src/nautilus-share.c:135
 msgid "  - read permission by others\n"
@@ -67,7 +71,7 @@ msgstr "Имя ресурса слишком длинное"
 
 #: ../src/nautilus-share.c:480
 msgid "The share name cannot be empty"
-msgstr "Имя ресурса не может быть пустым"
+msgstr "Введите имя ресурса"
 
 #: ../src/nautilus-share.c:493
 #, c-format
@@ -76,15 +80,15 @@ msgstr "Ошибка получения сведений о ресурсе: %s"
 
 #: ../src/nautilus-share.c:503
 msgid "Another share has the same name"
-msgstr "Уже есть ресурс с таким именем"
+msgstr "Ресурс с таким именем уже существует"
 
 #: ../src/nautilus-share.c:550 ../src/nautilus-share.c:786
 msgid "Modify _Share"
-msgstr "Измен_ить ресурс"
+msgstr "Из_менить ресурс"
 
 #: ../src/nautilus-share.c:550 ../src/nautilus-share.c:788
 msgid "Create _Share"
-msgstr "С_оздать ресурс"
+msgstr "_Создать ресурс"
 
 #: ../src/nautilus-share.c:678
 msgid "There was an error while getting the sharing information"
@@ -104,7 +108,7 @@ msgstr "Настроить общий доступ"
 
 #: ../src/nautilus-share.c:1152
 msgid "Share this Folder"
-msgstr "Опубликовать эту папку"
+msgstr "Открыть общий доступ к папке"
 
 #: ../src/shares.c:125
 #, c-format
@@ -119,17 +123,17 @@ msgstr "Неизвестная ошибка при запуске %s %s %s"
 #: ../src/shares.c:154
 #, c-format
 msgid "'net usershare' returned error %d: %s"
-msgstr "Ошибка %d при запуске 'net usershare': %s"
+msgstr "Ошибка %d при запуске «net usershare»: %s"
 
 #: ../src/shares.c:156
 #, c-format
 msgid "'net usershare' returned error %d"
-msgstr "Ошибка %d при запуске 'net usershare'"
+msgstr "Ошибка %d при запуске «net usershare»"
 
 #: ../src/shares.c:187
 #, c-format
 msgid "the output of 'net usershare' is not in valid UTF-8 encoding"
-msgstr "вывод 'net usershare' не является корректной строкой UTF-8"
+msgstr "вывод «net usershare» не является корректной строкой UTF-8"
 
 #: ../src/shares.c:442 ../src/shares.c:616
 #, c-format
@@ -175,21 +179,21 @@ msgid "<big><b>Folder Sharing</b></big>"
 msgstr "<big><b>Общий доступ к папке</b></big>"
 
 #: ../interfaces/share-dialog.ui.h:2
+msgid "Share _name:"
+msgstr "_Имя ресурса:"
+
+#: ../interfaces/share-dialog.ui.h:3
+msgid "Share this _folder"
+msgstr "_Открыть общий доступ к папке"
+
+#: ../interfaces/share-dialog.ui.h:4
 msgid "Co_mment:"
 msgstr "_Комментарий:"
 
-#: ../interfaces/share-dialog.ui.h:3
-msgid "Share _name:"
-msgstr "Имя _ресурса:"
-
-#: ../interfaces/share-dialog.ui.h:4
-msgid "Share this _folder"
-msgstr "Опубликовать эту _папку"
-
 #: ../interfaces/share-dialog.ui.h:5
 msgid "_Allow others to create and delete files in this folder"
-msgstr "_Разрешать другим пользователям изменять содержимое папки"
+msgstr "_Разрешить создание и удаление файлов по сети"
 
 #: ../interfaces/share-dialog.ui.h:6
 msgid "_Guest access (for people without a user account)"
-msgstr "_Гостевой доступ (для пользователей без локальной учётной записи)"
+msgstr "Разрешить _доступ без локальной учётной записи"

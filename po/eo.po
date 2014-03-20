@@ -1,27 +1,27 @@
-# Esperanto translation for nautilus-share
+# Esperanto translation for nautilus-share.
 # Copyright (c) 2011 Rosetta Contributors and Canonical Ltd 2011
 # This file is distributed under the same license as the nautilus-share package.
 # Michael MORONI < >, 2011.
-# Kristjan SCHMIDT <kristjan.schmidt@googlemail.com>, 2011.
+# Kristjan SCHMIDT <kristjan.schmidt@googlemail.com>, 2011, 2014.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: nautilus-share\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
 "product=nautilus-share&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2011-04-20 12:28+0000\n"
-"PO-Revision-Date: 2011-04-26 20:29+0200\n"
+"POT-Creation-Date: 2013-12-19 15:53+0000\n"
+"PO-Revision-Date: 2014-03-20 12:52+0100\n"
 "Last-Translator: Kristjan SCHMIDT <kristjan.schmidt@googlemail.com>\n"
-"Language-Team: Esperanto <ubuntu-l10n-eo@lists.launchpad.net>\n"
+"Language-Team: Esperanto <gnome-l10n-eo@lists.launchpad.net>\n"
 "Language: eo\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Launchpad-Export-Date: 2011-04-26 18:28+0000\n"
 "X-Generator: Launchpad (build 12915)\n"
-"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../src/nautilus-share.c:128
+#: ../src/nautilus-share.c:123
 #, c-format
 msgid ""
 "Nautilus needs to add some permissions to your folder \"%s\" in order to "
@@ -30,7 +30,7 @@ msgstr ""
 "Necesas, ke Naŭtilo aldonas kelkajn permesojn al via dosierujo \"%s\" por "
 "kunhavigi ĝin"
 
-#: ../src/nautilus-share.c:136
+#: ../src/nautilus-share.c:131
 #, c-format
 msgid ""
 "The folder \"%s\" needs the following extra permissions for sharing to "
@@ -43,69 +43,69 @@ msgstr ""
 "%s%s%sĈu vi volas, ke Naŭtilo aldonas ĉi tiujn permesojn al la dosierujo "
 "aŭtomate?"
 
-#: ../src/nautilus-share.c:140
+#: ../src/nautilus-share.c:135
 msgid "  - read permission by others\n"
 msgstr "  - legi permesojn de aliuloj\n"
 
-#: ../src/nautilus-share.c:141
+#: ../src/nautilus-share.c:136
 msgid "  - write permission by others\n"
 msgstr "  - skribi permesojn de aliuloj\n"
 
-#: ../src/nautilus-share.c:142
+#: ../src/nautilus-share.c:137
 msgid "  - execute permission by others\n"
 msgstr "  - ruli permesojn de aliuloj\n"
 
-#: ../src/nautilus-share.c:146
+#: ../src/nautilus-share.c:141
 msgid "Add the permissions automatically"
 msgstr "Aldoni la permesojn aŭtomate"
 
-#: ../src/nautilus-share.c:172
+#: ../src/nautilus-share.c:167
 #, c-format
 msgid "Could not change the permissions of folder \"%s\""
-msgstr "Ne povis ŝanĝi la permesojn de dosierujo \"%s\""
+msgstr "Ne eblis ŝanĝi la permesojn de dosierujo \"%s\""
 
-#: ../src/nautilus-share.c:451
+#: ../src/nautilus-share.c:446
 msgid "Share name is too long"
 msgstr "Kunhavnomo estas tro longa"
 
-#: ../src/nautilus-share.c:485
+#: ../src/nautilus-share.c:480
 msgid "The share name cannot be empty"
-msgstr "Kunhavnomo ne povas esti malplena"
+msgstr "La kunhavnomo ne povas esti malplena"
 
-#: ../src/nautilus-share.c:498
+#: ../src/nautilus-share.c:493
 #, c-format
 msgid "Error while getting share information: %s"
 msgstr "Eraro dum obtenado de kunhavinformoj: %s"
 
-#: ../src/nautilus-share.c:508
+#: ../src/nautilus-share.c:503
 msgid "Another share has the same name"
 msgstr "Alia kunhavo havas saman nomon"
 
-#: ../src/nautilus-share.c:555 ../src/nautilus-share.c:791
+#: ../src/nautilus-share.c:550 ../src/nautilus-share.c:786
 msgid "Modify _Share"
 msgstr "Redakti _kunhavigon"
 
-#: ../src/nautilus-share.c:555 ../src/nautilus-share.c:793
+#: ../src/nautilus-share.c:550 ../src/nautilus-share.c:788
 msgid "Create _Share"
 msgstr "Krei _kunhavigon"
 
-#: ../src/nautilus-share.c:683
+#: ../src/nautilus-share.c:678
 msgid "There was an error while getting the sharing information"
 msgstr "Estis eraro dum obtenado de kunhaviginformoj"
 
-#: ../src/nautilus-share.c:1055
+#: ../src/nautilus-share.c:1050
 msgid "Share"
 msgstr "Kunhavigi"
 
-#: ../src/nautilus-share.c:1115
+#: ../src/nautilus-share.c:1110
 msgid "Folder Sharing"
 msgstr "Dosieruja kunhavigo"
 
-#: ../src/nautilus-share.c:1156
+#: ../src/nautilus-share.c:1151
 msgid "Sharing Options"
 msgstr "Kunhavigaj agordoj"
 
-#: ../src/nautilus-share.c:1157
+#: ../src/nautilus-share.c:1152
 msgid "Share this Folder"
 msgstr "Kunhavigi ĉi tiun dosierujon"
 
@@ -117,7 +117,7 @@ msgstr "%s %s %s revenigis kun signalo %d"
 #: ../src/shares.c:134
 #, c-format
 msgid "%s %s %s failed for an unknown reason"
-msgstr "%s %s %s fiaskis pro nekonata kialo"
+msgstr "%s %s %s malsukcesis pro nekonata kialo"
 
 #: ../src/shares.c:154
 #, c-format
@@ -134,10 +134,10 @@ msgstr "'net usershare' revenigis eraron %d"
 msgid "the output of 'net usershare' is not in valid UTF-8 encoding"
 msgstr ""
 
-#: ../src/shares.c:442 ../src/shares.c:615
+#: ../src/shares.c:442 ../src/shares.c:616
 #, c-format
 msgid "Failed"
-msgstr "Fiaskis"
+msgstr "Malsukcesis"
 
 #: ../src/shares.c:550
 #, c-format
@@ -159,12 +159,12 @@ msgstr ""
 msgid "Samba's testparm returned error %d"
 msgstr ""
 
-#: ../src/shares.c:680
+#: ../src/shares.c:684
 #, c-format
 msgid "Cannot remove the share for path %s: that path is not shared"
 msgstr ""
 
-#: ../src/shares.c:726
+#: ../src/shares.c:730
 #, c-format
 msgid ""
 "Cannot change the path of an existing share; please remove the old share "
@@ -176,16 +176,16 @@ msgid "<big><b>Folder Sharing</b></big>"
 msgstr "<big><b>Dosieruja kunhavigo</b></big>"
 
 #: ../interfaces/share-dialog.ui.h:2
-msgid "Co_mment:"
-msgstr "Ko_mento:"
-
-#: ../interfaces/share-dialog.ui.h:3
 msgid "Share _name:"
 msgstr "Kunhavig_nomo:"
 
-#: ../interfaces/share-dialog.ui.h:4
+#: ../interfaces/share-dialog.ui.h:3
 msgid "Share this _folder"
 msgstr "Kunhavigi ĉi tiun _dosierujon"
+
+#: ../interfaces/share-dialog.ui.h:4
+msgid "Co_mment:"
+msgstr "Ko_mento:"
 
 #: ../interfaces/share-dialog.ui.h:5
 msgid "_Allow others to create and delete files in this folder"
@@ -195,9 +195,6 @@ msgstr "_Permesi al aliuloj krei kaj forigi dosierojn en tiu ĉi dosierujo"
 msgid "_Guest access (for people without a user account)"
 msgstr "_Gastaliro (por homoj sen uzantokonto)"
 
-#~ msgid "Restart your session"
-#~ msgstr "Restarti vian seancon"
-
 #~ msgid "You need to restart your session in order to enable sharing."
 #~ msgstr "Vi necesas restartigi vian seancon por enŝalti kunhavigon."
 
@@ -205,13 +202,13 @@ msgstr "_Gastaliro (por homoj sen uzantokonto)"
 #~ msgstr "Restartigi seancon"
 
 #~ msgid "Sharing service installation failed"
-#~ msgstr "Instalo de la kunhavigservo fiaskis"
+#~ msgstr "Instalo de la kunhavigservo malsukcesis"
 
 #~ msgid ""
 #~ "Sharing service installation has failed. Would you like to retry the "
 #~ "installation?"
 #~ msgstr ""
-#~ "Instalo de la kunhavigservo fiaskis. Ĉu vi volas reprovi la instalon?"
+#~ "Instalo de la kunhavigservo malsukcesis. Ĉu vi volas reprovi la instalon?"
 
 #~ msgid "Retry"
 #~ msgstr "Reprovi"

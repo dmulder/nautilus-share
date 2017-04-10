@@ -1,0 +1,197 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: https://bugzilla.gnome.org/enter_bug.cgi?"
+"product=nautilus-share&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2017-04-10 19:30+0200\n"
+"PO-Revision-Date: 2017-04-10 19:47+0200\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7.1\n"
+"Last-Translator: gogo <trebelnik2@gmail.com>\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Language: hr\n"
+
+#: ../src/nautilus-share.c:123
+#, c-format
+msgid ""
+"Nautilus needs to add some permissions to your folder \"%s\" in order to "
+"share it"
+msgstr ""
+"Nautilus treba dodati neke dozvole vašoj mapi \"%s\" kako bi ju mogli "
+"dijeliti"
+
+#: ../src/nautilus-share.c:131
+#, c-format
+msgid ""
+"The folder \"%s\" needs the following extra permissions for sharing to "
+"work:\n"
+"%s%s%sDo you want Nautilus to add these permissions to the folder "
+"automatically?"
+msgstr ""
+"Mapa \"%s\" treba sljedeće dodatne dozvole kako bi dijeljenje radilo:\n"
+"%s%s%sŽelite li da Nautilus doda te dozvole u mapu automatski?"
+
+#: ../src/nautilus-share.c:135
+msgid "  - read permission by others\n"
+msgstr "  - drugi korisnici mogu čitati\n"
+
+#: ../src/nautilus-share.c:136
+msgid "  - write permission by others\n"
+msgstr "  - drugi korisnici mogu zapisivati\n"
+
+#: ../src/nautilus-share.c:137
+msgid "  - execute permission by others\n"
+msgstr "  - drugi korisnici mogu izvršavati\n"
+
+#: ../src/nautilus-share.c:141
+msgid "Add the permissions automatically"
+msgstr "Dodaj dozvole automatski"
+
+#: ../src/nautilus-share.c:167
+#, c-format
+msgid "Could not change the permissions of folder \"%s\""
+msgstr "Nemoguće promijeniti dozvolu za mapu \"%s\""
+
+#: ../src/nautilus-share.c:446
+msgid "Share name is too long"
+msgstr "Naziv dijeljenja je predugačak"
+
+#: ../src/nautilus-share.c:480
+msgid "The share name cannot be empty"
+msgstr "Naziv dijeljenja ne može biti prazan"
+
+#: ../src/nautilus-share.c:493
+#, c-format
+msgid "Error while getting share information: %s"
+msgstr "Greška pri dobivanju informacija dijeljenja: %s"
+
+#: ../src/nautilus-share.c:503
+msgid "Another share has the same name"
+msgstr "Drugo dijeljenje ima isti naziv"
+
+#: ../src/nautilus-share.c:550 ../src/nautilus-share.c:786
+msgid "Modify _Share"
+msgstr "Promijeni _dijeljenje"
+
+#: ../src/nautilus-share.c:550 ../src/nautilus-share.c:788
+msgid "Create _Share"
+msgstr "Stvori _dijeljenje"
+
+#: ../src/nautilus-share.c:678
+msgid "There was an error while getting the sharing information"
+msgstr "Dogodila se greška pri dobivanju informacija dijeljenja"
+
+#: ../src/nautilus-share.c:1050
+msgid "Share"
+msgstr "Podijeli"
+
+#: ../src/nautilus-share.c:1110
+msgid "Folder Sharing"
+msgstr "Dijeljenje mape"
+
+#: ../src/nautilus-share.c:1151
+msgid "Sharing Options"
+msgstr "Mogućnosti dijeljenja"
+
+#: ../src/nautilus-share.c:1152
+msgid "Share this Folder"
+msgstr "Podijeli ovu mapu"
+
+#: ../src/shares.c:125
+#, c-format
+msgid "%s %s %s returned with signal %d"
+msgstr "%s %s %s je vraćen sa signalom %d"
+
+#: ../src/shares.c:134
+#, c-format
+msgid "%s %s %s failed for an unknown reason"
+msgstr "%s %s %s je neuspjelo iz nepoznatih razloga"
+
+#: ../src/shares.c:154
+#, c-format
+msgid "'net usershare' returned error %d: %s"
+msgstr "'net usershare' je vratio grešku %d: %s"
+
+#: ../src/shares.c:156
+#, c-format
+msgid "'net usershare' returned error %d"
+msgstr "'net usershare' je vratio grešku %d"
+
+#: ../src/shares.c:187
+#, c-format
+msgid "the output of 'net usershare' is not in valid UTF-8 encoding"
+msgstr "izlaz 'net usershare' nije valjano UTF-8 kôdiranje"
+
+#: ../src/shares.c:442 ../src/shares.c:616
+#, c-format
+msgid "Failed"
+msgstr "Neuspjelo"
+
+#: ../src/shares.c:550
+#, c-format
+msgid "Samba's testparm returned with signal %d"
+msgstr "Samba testni parametar je vratio signal %d"
+
+#: ../src/shares.c:556
+#, c-format
+msgid "Samba's testparm failed for an unknown reason"
+msgstr "Samba testni parametar je neuspio iz nepoznatih razloga"
+
+#: ../src/shares.c:571
+#, c-format
+msgid "Samba's testparm returned error %d: %s"
+msgstr "Samba testni parametar je vratio grešku %d: %s"
+
+#: ../src/shares.c:573
+#, c-format
+msgid "Samba's testparm returned error %d"
+msgstr "Samba testni parametar je vratio grešku %d"
+
+#: ../src/shares.c:684
+#, c-format
+msgid "Cannot remove the share for path %s: that path is not shared"
+msgstr ""
+"Nemoguće uklanjanje dijeljenja za putanju %s: ta putanja nije dijeljena"
+
+#: ../src/shares.c:730
+#, c-format
+msgid ""
+"Cannot change the path of an existing share; please remove the old share "
+"first and add a new one"
+msgstr ""
+"Nemoguća promjena putanje postojećeg dijeljenja; uklonite prvo staro "
+"dijeljenje a zatim dodajte novo"
+
+#: ../interfaces/share-dialog.ui.h:1
+msgid "<big><b>Folder Sharing</b></big>"
+msgstr "<big><b>Dijeljenje mape</b></big>"
+
+#: ../interfaces/share-dialog.ui.h:2
+msgid "Share _name:"
+msgstr "Naziv _dijeljenja:"
+
+#: ../interfaces/share-dialog.ui.h:3
+msgid "Share this _folder"
+msgstr "Podijeli ovu _mapu"
+
+#: ../interfaces/share-dialog.ui.h:4
+msgid "Co_mment:"
+msgstr "Ko_mentar:"
+
+#: ../interfaces/share-dialog.ui.h:5
+msgid "_Allow others to create and delete files in this folder"
+msgstr ""
+"_Dopusti drugim korisnicima stvaranje i brisanje datoteka u ovoj mapi"
+
+#: ../interfaces/share-dialog.ui.h:6
+msgid "_Guest access (for people without a user account)"
+msgstr "_Gostujući pristup (za korisnike bez korisničkog računa)"

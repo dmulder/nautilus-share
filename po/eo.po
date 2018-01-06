@@ -1,25 +1,24 @@
 # Esperanto translation for nautilus-share.
-# Copyright (c) 2011 Rosetta Contributors and Canonical Ltd 2011
+# Copyright (C) 2011 Free Software Foundation, Inc.
 # This file is distributed under the same license as the nautilus-share package.
 # Michael MORONI < >, 2011.
-# Kristjan SCHMIDT <kristjan.schmidt@googlemail.com>, 2011, 2014.
-#
+# Kristjan SCHMIDT <kristjan.schmidt@googlemail.com>, 2011, 2014, 2018.
 msgid ""
 msgstr ""
 "Project-Id-Version: nautilus-share\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
-"product=nautilus-share&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2013-12-19 15:53+0000\n"
-"PO-Revision-Date: 2014-03-20 12:52+0100\n"
+"Report-Msgid-Bugs-To: https://bugzilla.gnome.org/enter_bug.cgi?product"
+"=nautilus-share&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2017-04-08 15:26+0000\n"
+"PO-Revision-Date: 2018-01-06 01:03+0200\n"
 "Last-Translator: Kristjan SCHMIDT <kristjan.schmidt@googlemail.com>\n"
-"Language-Team: Esperanto <gnome-l10n-eo@lists.launchpad.net>\n"
+"Language-Team: Esperanto <gnome-eo-list@gnome.org>\n"
 "Language: eo\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2011-04-26 18:28+0000\n"
-"X-Generator: Launchpad (build 12915)\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Virtaal 0.7.1\n"
+"X-Project-Style: gnome\n"
 
 #: ../src/nautilus-share.c:123
 #, c-format
@@ -132,7 +131,7 @@ msgstr "'net usershare' revenigis eraron %d"
 #: ../src/shares.c:187
 #, c-format
 msgid "the output of 'net usershare' is not in valid UTF-8 encoding"
-msgstr ""
+msgstr "la eligio de 'net usershare' ne havas validan UTF-8-kodoprezenton"
 
 #: ../src/shares.c:442 ../src/shares.c:616
 #, c-format
@@ -142,27 +141,27 @@ msgstr "Malsukcesis"
 #: ../src/shares.c:550
 #, c-format
 msgid "Samba's testparm returned with signal %d"
-msgstr ""
+msgstr "Testparm de Sambo redonis la signalon %d"
 
 #: ../src/shares.c:556
 #, c-format
 msgid "Samba's testparm failed for an unknown reason"
-msgstr ""
+msgstr "Testparm de Sambo malsukcesis pro nekonata kialo"
 
 #: ../src/shares.c:571
 #, c-format
 msgid "Samba's testparm returned error %d: %s"
-msgstr ""
+msgstr "Testparm de Sambo redonis la eraron %d: %s"
 
 #: ../src/shares.c:573
 #, c-format
 msgid "Samba's testparm returned error %d"
-msgstr ""
+msgstr "Testparm de Sambo redonis la eraron %d"
 
 #: ../src/shares.c:684
 #, c-format
 msgid "Cannot remove the share for path %s: that path is not shared"
-msgstr ""
+msgstr "Ne eblas forigi la kunhavigon de vojo %s: la vojo ne estas kunhavigita"
 
 #: ../src/shares.c:730
 #, c-format
@@ -170,6 +169,8 @@ msgid ""
 "Cannot change the path of an existing share; please remove the old share "
 "first and add a new one"
 msgstr ""
+"Ne eblas ŝanĝi la vojon de ekzistanta kunhavigo; bonvole forigu unue la "
+"malnovan kunhavigon kaj aldonu novan"
 
 #: ../interfaces/share-dialog.ui.h:1
 msgid "<big><b>Folder Sharing</b></big>"
